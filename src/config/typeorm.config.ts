@@ -7,7 +7,7 @@ export const TypeOrmConfig = async (): Promise<TypeOrmModuleOptions> => ({
     username: process.env.DB_USER,
     password: process.env.DB_PASSWORD,
     database: process.env.DB_NAME,
-    entities: [__dirname + 'dist/**/*.entity{.ts, .js}'],
+    entities: [User, AddressLocation, Incident],
     autoLoadEntities: true,
     synchronize: true,
 })
