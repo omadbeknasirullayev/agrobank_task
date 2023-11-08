@@ -18,3 +18,11 @@ export const SwaggerConfig = new DocumentBuilder()
         'JWT-auth', 
     )
     .build();
+    // .setTitle('Term Appointment')
+    // .setDescription('REST API')
+    // .setVersion('1.0.0')
+    // .addTag('NodeJS, NestJS, Postgresql, sequelize')
+    // .setDescription('Term payment system')
+    // .addBearerAuth()
+    // .build();
+

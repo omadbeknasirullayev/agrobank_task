@@ -30,7 +30,7 @@ export class User {
     role: Role
 
     @ApiProperty({example: true, description: 'user active or not'})
-    @Column()
+    @Column({default: true})
     is_active: boolean
 
     @CreateDateColumn()

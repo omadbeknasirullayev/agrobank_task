@@ -1,4 +1,5 @@
 import { TypeOrmModuleOptions } from "@nestjs/typeorm";
+import { Incident, AddressLocation, User } from "src/db";
 
 export const TypeOrmConfig = async (): Promise<TypeOrmModuleOptions> => ({
     type: 'postgres',
